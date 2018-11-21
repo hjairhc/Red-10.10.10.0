@@ -28,16 +28,16 @@
                 "drawing_id": "944c7028-58ad-4bdb-b6bc-71505fd62b46",
                 "rotation": 0,
                 "svg": "<svg height=\"25\" width=\"86\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">10.10.10.1</text></svg>",
-                "x": -610,
-                "y": -202,
+                "x": -604,
+                "y": -234,
                 "z": 1
             },
             {
                 "drawing_id": "3d7275c0-9d1c-4f67-a609-d20d6343b99b",
                 "rotation": 0,
                 "svg": "<svg height=\"25\" width=\"131\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"TypeWriter\" font-size=\"10.0\" font-weight=\"bold\">192.168.127.205</text></svg>",
-                "x": -436,
-                "y": -207,
+                "x": -411,
+                "y": -241,
                 "z": 1
             }
         ],
@@ -227,6 +227,37 @@
                     }
                 ],
                 "suspend": false
+            },
+            {
+                "filters": {},
+                "link_id": "eef7c088-4b70-4d07-9def-51a1d9ea189d",
+                "nodes": [
+                    {
+                        "adapter_number": 1,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "f1/0",
+                            "x": 31,
+                            "y": 61
+                        },
+                        "node_id": "1f280bcc-f869-45b6-966e-05e8dd997068",
+                        "port_number": 0
+                    },
+                    {
+                        "adapter_number": 0,
+                        "label": {
+                            "rotation": 0,
+                            "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
+                            "text": "e0",
+                            "x": 35,
+                            "y": -6
+                        },
+                        "node_id": "a56e3999-58d9-46c8-8019-b492182b53ae",
+                        "port_number": 0
+                    }
+                ],
+                "suspend": false
             }
         ],
         "nodes": [
@@ -303,7 +334,7 @@
                 "symbol": ":/symbols/ethernet_switch.svg",
                 "width": 72,
                 "x": -701,
-                "y": -186,
+                "y": -188,
                 "z": 0
             },
             {
@@ -344,7 +375,7 @@
                     "platform": "c3725",
                     "ram": 128,
                     "slot0": "GT96100-FE",
-                    "slot1": null,
+                    "slot1": "NM-1FE-TX",
                     "slot2": null,
                     "sparsemem": true,
                     "system_id": "FTX0945W0MY",
@@ -354,8 +385,8 @@
                 },
                 "symbol": ":/symbols/router.svg",
                 "width": 66,
-                "x": -501,
-                "y": -193,
+                "x": -505,
+                "y": -194,
                 "z": 0
             },
             {
@@ -529,7 +560,7 @@
                 "symbol": ":/symbols/cloud.svg",
                 "width": 159,
                 "x": -241,
-                "y": -208,
+                "y": -207,
                 "z": 0
             },
             {
@@ -553,8 +584,8 @@
                 "properties": {},
                 "symbol": ":/symbols/printer.svg",
                 "width": 68,
-                "x": -507,
-                "y": -5,
+                "x": -500,
+                "y": 36,
                 "z": 0
             }
         ]
